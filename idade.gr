@@ -1,0 +1,14 @@
+begin idade:
+    write "Write your name: "
+    nome : string <- read
+
+    write "Write your year of birth: "
+    ano : int <- read
+
+    idade : int
+    idade <- 2023 - ano
+
+    write "Hello, " nome
+    write "You are " idade
+    write "years old."
+end

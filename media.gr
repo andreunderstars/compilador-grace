@@ -1,0 +1,19 @@
+begin media:
+    nota1 : real <- read
+    nota2 : real <- read
+    nota3 : real <- read
+
+    total : real 
+    total <- nota1 + nota2 + nota3
+    
+    media : real
+    media <- total/3
+    is(media>=6)?
+        write "Aluno aprovado."
+
+    end
+    otherwise:
+        write "Aluno reprovado."
+
+    end
+end
