@@ -2,6 +2,14 @@
 
 Desenvolvimento de um analisador léxico e sintático da linguagem Grace, como requisito para a segunda nota da matéria de Compiladores (ECOM06A) do curso de Engenharia de Computação da UNIFEI.
 
+Desenvolvido por: 
+
+André Luiz Melo dos Santos Franco
+
+Mateus Alexandre Martins de Souza
+
+Patricia Brenny Ribeiro
+
 ## Conteúdo
 
 O analisador é composto pelos arquivos **lexer.l**, com as definições de símbolos e palavras reservadas da linguagem, e **parser.y**, com a definição das regras das sentenças da linguagem.
